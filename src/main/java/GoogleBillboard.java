@@ -3,13 +3,13 @@ public class GoogleBillboard {
 	public static void main(final String[] args) {
 		public int i = 2;
 		public String chunk = new String();
-		public boolean moreSearch = false;
+		public boolean moreSearch = true;
 		while (moreSearch){
 		chunk = e.substring(i,i+10);
     		num = Double.parseDouble(chunk);
     		if (isPrime(num)){
       			System.out.println(num);
-      			found = true;
+      			moreSearch = false;
     			}
     		i++;	
 		}
