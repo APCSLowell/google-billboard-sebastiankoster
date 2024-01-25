@@ -5,10 +5,12 @@ public class GoogleBillboard {
 		 String chunk = new String();
 		 boolean moreSearch = true;
 		 double num;
+		boolean itsPrine;
 		while(moreSearch==true){
 		chunk = e.substring(i,i+10);
     		num = Double.parseDouble(chunk);
-    		if (isPrime(num)){
+		itsPrine = isPrime(num);
+    		if (itsPrine){
       			System.out.println(num);
       			moreSearch = false;
     			}
