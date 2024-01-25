@@ -4,6 +4,7 @@ public class GoogleBillboard {
 		 int i = 2;
 		 String chunk = new String();
 		 boolean moreSearch = true;
+		 double num;
 		while(moreSearch==true){
 		chunk = e.substring(i,i+10);
     		num = Double.parseDouble(chunk);
